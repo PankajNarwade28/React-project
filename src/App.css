@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@352&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b0f1fa8a;
+}
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+  font-size: 1.3rem;
+  line-height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #e1f8f4;
+  color: #1ab2a6;
+  transition: 0.6s;
+}
+.icon:hover {
+  background-color: #1eb2a6;
+  cursor: pointer;
+  color: white;
+}
+button {
+  border: none;
+}
+.row {
+  width: 50%;
+  font-size: larger;
+}
+.button button {
+  padding: 17px 30px;
+  background-color: white;
+  color: #1ab2a6;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgb(121, 120, 120);
+  transition: 0.5s;
+}
+.button button:hover {
+  box-shadow: none;
+  background-color: #1ab2a6;
+  color: #fff;
+}
+.button button i {
+  margin-left: 20px;
+}
+.primary-btn {
+  background-color: #1ab2a6;
+  color: #fff;
+}
+#heading {
+  text-align: center;
+  padding: 25px 0;
+}
+#heading h3 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #1ab2a6;
+  text-transform: uppercase;
+}
+#heading h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+@media (max-width: 1350px) {
+  .hero {
+    padding-top: 25%;
+    padding-right: 0;
+  }
+}
+@media (max-width: 975px) {
+  .row {
+    width: 70%;
+  }
+  .hero {
+    padding-top: 30%;
+  }
+}
+@media (max-width: 820px) {
+  .row {
+    width: 100%;
+    font-size: medium;
+  }
+  .hero {
+    padding-top: 35%;
+  }
+}

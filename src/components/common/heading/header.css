@@ -1,0 +1,144 @@
+.head {
+  padding: 20px 0;
+  color: #000;
+}
+.title {
+  margin: 10px;
+}
+.title h1 {
+  font-size: 35px;
+  font-weight: 900;
+}
+.logo img {
+  height: 130px;
+}
+.logo span {
+  margin-left: 10px;
+}
+.head .icon {
+  margin-left: 10px;
+}
+
+/* Header section  */
+header {
+  background-color: #e1f8f4;
+  margin: 0 30px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* align-items: center; */
+}
+header nav ul li {
+  margin-right: 40px;
+  padding: 20px 10px;
+  font-size: 1.3rem;
+  color: #000;
+}
+header ul {
+  /* padding: 30px 20px; */
+}
+header ul li a {
+  color: #000;
+  font-weight: 500;
+  transition: 0.5s;
+  border-bottom: 2px solid transparent;
+}
+header ul li a:hover {
+  color: #1eb2a6;
+  border-bottom: 2px solid #1eb2a6;
+}
+.start {
+  background-color: #1eb2a6;
+  margin-right: 2px;
+  color: white;
+  padding: 20px 70px;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+.start:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.mobile-nav {
+  display: none;
+}
+.toggle {
+  display: none;
+}
+@media (max-width: 1147px) {
+  .start {
+    padding: 10px 30px;
+  }
+  header nav ul li {
+    margin-right: 15px;
+    padding: 10px 10px;
+    font-size: 1rem;
+  }
+  .social {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .title h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 825px) {
+  .start {
+    clip-path: none;
+  }
+  header {
+    margin: 0;
+    background-color: #1eb3a6;
+    position: relative;
+  }
+  header nav ul.flexSB {
+    display: none;
+  }
+  header nav ul li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  .Mobile-nav {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    left: 0;
+    background-color: #1eb3a6;
+  }
+}
+@media (max-width: 725px) {
+  .flexSB {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .title {
+    margin: 5px;
+    text-align: center;
+  }
+  .logo img {
+    height: 150px;
+  }
+}
