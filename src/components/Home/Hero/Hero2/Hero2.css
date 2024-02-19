@@ -1,0 +1,46 @@
+.flexSB-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 30px;
+}
+.heading {
+  padding: 10px 5px 10px 5px;
+  margin: 0px 10px 10px 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: 2.9px solid brown;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  z-index: -1;
+}
+p {
+  padding: 12px 15px 12px 15px;
+  font-weight: normal;
+}
+.mar-p {
+  font-weight: lighter;
+}
+.mission {
+  margin-top: 0px;
+}
+.pad40 {
+  padding: 40px;
+}
+.wid80 {
+  width: 80%;
+}
+@media (max-width: 875px) {
+  .flexSB-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 875px) {
+  .wid80 {
+    width: 95%;
+  }
+}

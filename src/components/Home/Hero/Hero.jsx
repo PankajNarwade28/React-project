@@ -1,11 +1,12 @@
 import React from "react";
 import "./Hero.css";
+import Hero2 from "./Hero2/Hero2";
 import Title from "../../common/Title/Title";
 function Hero() {
   return (
     <>
       <section className="hero">
-        <div className="container">
+        <div className="container flexSB-yt">
           <div className="row">
             <Title
               subtitle="WELCOME FROM GSG COLLEGE"
@@ -18,7 +19,7 @@ function Hero() {
               distinctio, dolorem provident enim, ad, fugiat numquam recusandae
             </p>
             <div className="button">
-              <button className="primary-btn">
+              <button id="primary-btn">
                 GET CONNECTED<i class="fa-sharp fa-solid fa-arrow-right"></i>
               </button>
               <button>
@@ -26,7 +27,20 @@ function Hero() {
               </button>
             </div>
           </div>
+          <div className="yt-vdo">
+            <h2 class="heading mt10">About College</h2>
+            <iframe
+              width="400"
+              height="300"
+              src="https://www.youtube.com/embed/lfIwHPWSGYg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
+        <Hero2 />
       </section>
       <div className="margin"></div>
     </>

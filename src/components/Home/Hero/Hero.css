@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../../../assets/images/bg.jpg);
+  /* background-image: url(../../../assets/images/bg.jpg); */
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -10,17 +10,18 @@
   height: 100vh;
   padding-top: 20%;
   padding-right: 50px;
-  color: #fff;
+  color: #000;
   /* opacity: 0.9; */
 }
 .hero #heading h3 {
-  color: #fff;
+  color: #000;
 }
 .hero #heading {
   text-align: left;
   margin: 0;
   padding: 0;
 }
+
 @media (max-width: 1350px) {
   .hero {
     padding-top: 25%;
@@ -63,5 +64,41 @@
 @media (max-width: 492px) {
   .hero {
     padding-top: 100%;
+  }
+}
+.flexSB-yt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .container {
+    max-width: 95%;
+    margin: auto;
+  }
+}
+@media (max-width: 875px) {
+  .flexSB-yt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .yt-vdo {
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+  }
+  .row {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .hero {
+    padding-top: 120%;
   }
 }

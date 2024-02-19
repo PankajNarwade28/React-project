@@ -6,8 +6,9 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #b0f1fa8a;
+  background-color: rgb(129 214 244 / 37%);
 }
+
 .container {
   max-width: 85%;
   margin: auto;
@@ -61,9 +62,9 @@ button {
 .button button i {
   margin-left: 20px;
 }
-.primary-btn {
-  background-color: #1ab2a6;
-  color: #fff;
+#primary-btn {
+  background-color: #30d5c7 !important;
+  color: #fff !important;
 }
 #heading {
   text-align: center;
@@ -90,6 +91,11 @@ p {
     padding-right: 0;
   }
 }
+@media (max-width: 1147px) {
+  .social {
+    justify-content: space-between !important;
+  }
+}
 @media (max-width: 975px) {
   .row {
     width: 70%;
@@ -105,5 +111,10 @@ p {
   }
   .hero {
     padding-top: 35%;
+  }
+}
+@media (max-width: 820px) {
+  .hero {
+    padding-top: 125%;
   }
 }

@@ -19,10 +19,18 @@ function Head() {
           </div>
 
           <div className="social">
-            <i class="fa-brands fa-facebook icon"></i>
-            <i class="fa-brands fa-instagram icon"></i>
-            <i class="fa-brands fa-youtube icon"></i>
-            <i class="fa-brands fa-twitter icon"></i>
+            <a href="https://www.facebook.com/gsgcollege1966/">
+              <i class="fa-brands fa-facebook icon"></i>
+            </a>
+            <a href="https://www.instagram.com/gsgcollege1966/">
+              <i class="fa-brands fa-instagram icon"></i>
+            </a>
+            <a href="https://www.youtube.com/@gsgcollege">
+              <i class="fa-brands fa-youtube icon"></i>
+            </a>
+            <a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F">
+              <i class="fa-brands fa-linkedin icon"></i>
+            </a>
           </div>
         </div>
       </section>

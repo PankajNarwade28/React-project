@@ -25,10 +25,10 @@ function Header() {
               <Link to="/P&P">Patron & Principle</Link>
             </li>
             <li>
-              <Link to="/P&P">Quick Links</Link>
+              <Link to="/QLink">Quick Links</Link>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/Contact">Contact Us</Link>
             </li>
           </ul>
           <div className="start">

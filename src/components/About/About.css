@@ -1,0 +1,16 @@
+.para-abt {
+  font-family: system-ui;
+  font-weight: 400;
+  margin: 1%;
+}
+.heading {
+  padding: 10px 5px 10px 5px;
+  margin: 0px 10px 10px 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: 2.9px solid brown;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  z-index: 1;
+}

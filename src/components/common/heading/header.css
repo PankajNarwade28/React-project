@@ -21,7 +21,7 @@
 
 /* Header section  */
 header {
-  background-color: #e1f8f4;
+  background-color: #fbffff;
   margin: 0 30px;
 }
 .social {
@@ -46,15 +46,17 @@ header ul li a {
   transition: 0.5s;
   border-bottom: 2px solid transparent;
 }
+
 header ul li a:hover {
   color: #1eb2a6;
   border-bottom: 2px solid #1eb2a6;
 }
 .start {
   background-color: #1eb2a6;
-  margin-right: 2px;
+  /* margin-right: 2px; */
   color: white;
   padding: 20px 70px;
+  font-weight: 400;
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
 }
 .start:hover {
