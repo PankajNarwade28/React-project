@@ -1,6 +1,8 @@
 import React from "react";
 import Qlink from "../common/Qlink/Qlink";
 import "./About.css";
+import Qbtn from "../common/Qlink/Qbtn/Qbtn";
+import Contactm from "../Contact/Contactm";
 function About() {
   return (
     <>
@@ -27,7 +29,8 @@ function About() {
         education and life-long learning to the students and works tirelessly
         for realization of its vision.
       </p>
-      <Qlink />
+      <Qbtn />
+      <Contactm />
     </>
   );
 }

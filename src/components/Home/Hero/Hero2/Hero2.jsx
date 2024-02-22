@@ -2,6 +2,8 @@ import React from "react";
 import Qlink from "../../../common/Qlink/Qlink";
 import Contact from "../../../Contact/Contact";
 import "./Hero2.css";
+import Qbtn from "../../../common/Qlink/Qbtn/Qbtn";
+import Contactm from "../../../Contact/Contactm";
 function Hero2() {
   return (
     <>
@@ -27,7 +29,8 @@ function Hero2() {
           <hr />
         </div>
       </div>
-      <Qlink />
+      <Qbtn />
+      <Contactm />
     </>
   );
 }

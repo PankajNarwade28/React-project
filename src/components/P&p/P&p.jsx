@@ -1,7 +1,7 @@
 import React from "react";
-import Qlink from "../common/Qlink/Qlink";
-import Contact from "../Contact/Contact";
 import "./P&p.css";
+import Qbtn from "../common/Qlink/Qbtn/Qbtn";
+import Contactm from "../Contact/Contactm";
 
 function Pandp() {
   return (
@@ -66,7 +66,8 @@ function Pandp() {
           </div>
         </div>
       </div>
-      <Qlink />
+      <Qbtn />
+      <Contactm />
     </>
   );
 }

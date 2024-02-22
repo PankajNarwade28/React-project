@@ -31,6 +31,9 @@ function Head() {
             <a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F">
               <i class="fa-brands fa-linkedin icon"></i>
             </a>
+            {/* <a href="/">
+              <i class="fa-brands fa-twitter icon"></i>
+            </a> */}
           </div>
         </div>
       </section>

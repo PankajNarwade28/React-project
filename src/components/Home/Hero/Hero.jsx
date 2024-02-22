@@ -30,8 +30,8 @@ function Hero() {
           <div className="yt-vdo">
             <h2 class="heading mt10">About College</h2>
             <iframe
-              width="400"
-              height="300"
+              // width="400"
+              // height="300"
               src="https://www.youtube.com/embed/lfIwHPWSGYg"
               title="YouTube video player"
               frameborder="0"
